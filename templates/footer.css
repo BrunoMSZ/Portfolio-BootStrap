@@ -1,0 +1,14 @@
+@import url("../styles.css");
+.desenvolvido{
+    bottom: 0;
+    left: 0;
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
+    background-color: var(--letra-destaque);
+    color: var(--background);
+    font-size: 25px;
+    text-align: center;
+    font-family: var(--letra-principal);
+    font-weight: 400;
+}

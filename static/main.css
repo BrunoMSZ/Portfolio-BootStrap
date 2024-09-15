@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 100vh;
+}
+strong{
+    color: var(--letra-destaque);
+    font-family: var(--letra-principal);
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: var(--letra-nome);
+    font-family: var(--letra-principal);
+    font-weight: 400;
+}
+/*Página Inicial*/
+.principal{
+    margin-bottom: 20%;
+    height: auto;
+}
+.principal__pagUm__titulo{
+    margin-top: 15%;
+    color: var(--letra-destaque);
+    font-size: 20px;
+    font-family: var(--letra-principal);
+}
+.principal__pagUm__nome{
+    margin-top: 5%;
+    color: var(--letra-nome);
+    font-size: 50px;
+    font-family: var(--letra-principal);
+}
+.principal__pagUm__sobre{
+    margin-top: 5%;
+    color: var(--letra-descricao);
+    font-family: var(--letra-principal);
+    font-size: 25px;
+    font-weight: 400;
+}
+.projetos{
+    font-size: 30px;
+}
+.descricao__texto{
+    padding-top: 5%;
+    display: flex;
+    text-align: center;
+    color: var(--letra-descricao);
+    font-family: var(--letra-principal);
+    font-weight: 400;
+    font-size: 25px;
+}
+.descricao__programacao{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    height: 20px;
+    border: 2px solid var(--letra-destaque);
+    border-radius: 1px;
+    color: var(--letra-destaque);
+    font-family: var(--letra-principal);
+    font-weight: 400;
+}
+/*Página Dois*/
+.secundario{
+    margin-bottom: 20%;
+}
+.secundario__projeto_1{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.secundario__projeto_2{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.secundario__projeto_3{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.secundario__projeto_4{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.secundario__pagDois__Titulo{
+    color: var(--letra-destaque);
+    font-family: var(--letra-principal);
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.secundario__projeto{
+    display: flex;
+    justify-content:space-between;
+}
+.secundario__descricao{
+    display: inline-flexbox;
+    padding: 5%;
+}
+.projetos{
+    color: var(--letra-nome);
+    padding-bottom: 5%;
+    font-family: var(--letra-principal);
+    font-weight: 400;
+}
+.descricao{
+    color: var(--letra-descricao);
+    font-family: var(--letra-principal);
+    font-weight: 400;
+    font-size: 25px;
+}
+/*Página Três*/
+.terciario{
+    margin-top: 85vw;
+}
+.principal__pagTres_titulo{
+    color: var(--letra-destaque);
+    font-family: var(--letra-principal);
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.terciario__imagens{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.terciario__imagens_links{
+    text-align: center;
+}
+.principal__pagTres__tituloRede{
+    margin-bottom: 15%;
+    color: var(--letra-descricao);
+    font-family: var(--letra-principal);
+    font-weight: 400;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 7vh;
+    right: 2vh;
+    width: 5vh;
+    height: 5vh;
+    background-color: var(--letra-destaque);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+}
+.btn::after {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--letra-nome);
+    transition: margin-top 250ms;
+    font-family: var(--letra-principal);
+    font-weight: 400;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
+.img__representacaoProjeto{
+    margin-top: 14vh;
+    width: 200px;
+    height: 156.16px;
+}
+.img__contato{
+    width: 80px;
+    height: 80px;
+}
+.img__link__projeto{
+    width: 22px;
+    height: 20px;
+}

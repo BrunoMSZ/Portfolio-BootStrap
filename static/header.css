@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.cabecalho__dir{
+    margin-left: 70vw;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.cabecalho__dir__itens{
+    margin-top: 2em;
+    text-decoration: none;
+    color: var(--letra-destaque);
+    font-family: var(--letra-principal);
+    font-weight: 400;
+}
+.cabecalho__resume{
+    margin-top: 1.2em;
+    margin-right: 1em;
+    border: 3px solid var(--letra-destaque);
+    border-radius: 2px;
+    padding: 2%;
+    color: var(--letra-destaque);
+    font-family: var(--letra-principal);
+    font-weight: 400;
+}
+.cabecalho__resume:hover{
+    transition: 1s;
+    background-color:var(--letra-nome);
+
+}
+.cabecalho__dir__itens:hover{
+    border-bottom:2px solid var(--letra-nome);
+}

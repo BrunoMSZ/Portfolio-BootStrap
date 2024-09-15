@@ -1,0 +1,21 @@
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+@import url("./reset.css");
+@import url("./responsividade.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --background: #32373B;
+    --letra-destaque: #849324;
+    --letra-nome: #E3E4DB;
+    --letra-descricao: #CDCDCD;
+    --hover: #6A8EAE;
+    --letra-principal: 'Montserrat';
+
+}
+body{
+    background-color: var(--background);
+}
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,115 @@
+/*se tiver no max 1200px irá aplicar está config - Responsividade*/
+@import url("../reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@media(max-width: 770px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .cabecalho{
+        margin-bottom: 10%;
+    }
+    body{
+        margin-left: 0%;
+        width: auto;
+        height: auto;
+    }
+    .classe_principal{
+        display: block;
+        flex-direction: column-reverse;
+        padding: 5%;
+        width: 100vw;
+    }
+    .cabecalho__dir{
+        margin-left: 2%;
+        margin: 1%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 20px;
+    }
+    .cabecalho__resume{
+        margin-top: 1.5em;
+        margin-right: 2%;
+        font-size: 20px;
+    }
+    .principal__pagUm__titulo{
+        font-size: 20px;
+    }
+    .principal__pagUm__nome{
+        font-size: 25px;
+    }
+    .principal__pagUm__sobre{
+        font-size: 20px;
+    }
+    .projetos{
+        font-size: 20px;
+    }
+    .secundario__descricao{
+        font-size: 12px;
+    }
+    .descricao__programacao{
+        font-size: 12px;
+    }
+    .principal__pagTres_titulo{
+        padding-top: 10vh;
+    }
+    .principal__pagTres__tituloRede{
+        font-size: 15px;
+    }
+    .img__representacaoProjeto{
+        margin-left: 5%;
+    }
+    .desenvolvido{
+        font-size: 15px;
+        bottom: 0;
+        left: 0;
+        height: 20px;
+        position: fixed;
+        width: 100vw;
+        display: flex;
+        text-align: center;
+    }
+    .secundario__projeto_1{
+        flex-direction: column-reverse;
+        padding-bottom: 5%;
+    }
+    .secundario__projeto_2{
+        flex-direction: column-reverse;
+        padding-bottom: 5%;
+    }
+    .secundario__projeto_3{
+        flex-direction: column-reverse;
+        padding-bottom: 5%;
+    }
+    .secundario__projeto_4{
+        flex-direction: column-reverse;
+        padding-bottom: 5%;
+    }
+    .terciario__imagens{
+        flex-direction: column-reverse;
+        padding-bottom: 5%;
+    }
+    .btn{
+        bottom: 0px;
+        right: 0px;
+        width: 0px;
+        height: 0px;
+    }
+    .terciario__imagens_links{
+        padding-bottom: 15%;
+    }
+    .secundario__pagDois__Titulo{
+        font-size: 25px;
+    }
+}
+@media(min-width: 1399px){
+    .img__representacaoProjeto{
+        margin-top: 15vh;
+        width: 250px;
+        height: 200px;
+    }
+    .principal__pagTres_titulo{
+        padding-top: 60vh;
+    }
+}
