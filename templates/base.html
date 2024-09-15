@@ -9,8 +9,28 @@
     <!--<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">-->
     <link rel="icon" href="{{ url_for('static', filename='portfolio.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ url_for('static', filename='scss.css') }}">
+    <style>
+        .bg-custom {
+            background-color: #32373B !important;
+            color: #E3E4DB;
+        }
+        .letter-custom{
+            color: #849324;
+        }
+        .borda-lg-custom {
+            border: 2px solid;
+            border-radius: 2px;
+        }
+        .borda-lg-custom:hover{
+            transition: 0.6s ease-in;
+            background-color:#E3E4DB;
+            border-radius: 2px;
+            border-color: #849324;
+            color: #849324;
+        }
+    </style>
 </head>
-<body>
+<body class="p-3 mb-2 bg-custom text-white">
     
     {% block conteudo %}
     {% endblock conteudo %}
