@@ -5,10 +5,10 @@ Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido em Python uti
 ## índice
 
 - [Sobre](#sobre)
-- [Projetos](#projeto)
+- [Projetos Existentes](#Projetos)
 - [Contato](#contato)
 
-## sobre
+## Sobre
 
 Sou Bruno Milezi Sigrist, estudante de ciência da computação apaixonado por tecnologia e programação. Estou sempre buscando aprender e desenvolver habilidades em diversas linguagens de programação, incluindo Python, Java, C e C++. Tenho experiência em desenvolvimento web e tenho interesse em áreas como inteligência artificial, ciência de dados e desenvolvimento de software.
 
