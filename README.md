@@ -5,8 +5,7 @@ Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido em Python uti
 ## índice
 
 - [Sobre](#sobre)
-- [Recursos](#features)
-- [projeto](#projeto)
+- [Projetos](#projeto)
 - [Contato](#contato)
 
 ## sobre
